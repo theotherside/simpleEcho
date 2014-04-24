@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickMe:(id)sender {
+    
+    self.label.text = self.textInput.text;
+}
 @end

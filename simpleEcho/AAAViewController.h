@@ -10,4 +10,8 @@
 
 @interface AAAViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *label;
+
+@property (strong, nonatomic) IBOutlet UITextField *textInput;
+
 @end
